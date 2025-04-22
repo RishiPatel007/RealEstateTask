@@ -4,7 +4,6 @@ const {
 	nMaximumUsernameLength,
 	rEmailRegex,
 	rUsernameRegex,
-	rPhoneRegex,
 	nMinimumRating,
 	nMaximumRating,
 	nMaximumFavouritesLength,
@@ -27,7 +26,6 @@ const oBaseUserSchema = new mongoose.Schema(
 		},
 		nPhone: {
 			type: String,
-			match: rPhoneRegex,
 			required: true,
 			unique: true,
 		},

@@ -1,5 +1,4 @@
-const Client = require("./Client");
-const Agent = require("./Agent");
+const { Client, Agent } = require("./User");
 const Message = require("./Message");
 const Property = require("./Property");
 

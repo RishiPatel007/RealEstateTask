@@ -5,7 +5,6 @@ module.exports.aPropertyCategory = ["rent", "sale"];
 module.exports.nMinimumUsernameLength = 5;
 module.exports.nMaximumUsernameLength = 20;
 
-module.exports.rPhoneRegex = /^\d{10}$/;
 module.exports.rEmailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 module.exports.rUsernameRegex = /^[a-z]+/i;
 module.exports.nMaximumFavouritesLength = 10;
